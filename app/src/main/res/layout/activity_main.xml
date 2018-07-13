@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--fontawesome-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fontawesome"
+            android:padding="@dimen/small_margin"
+            android:text="@string/fa_glass"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fontawesome"
+            android:padding="@dimen/small_margin"
+            android:text="@string/fa_500px"
+            android:textSize="@dimen/icon_size" />
+
+        <!--ionicons-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ionicons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/io_android_add"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ionicons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/io_android_add_circle"
+            android:textSize="@dimen/icon_size" />
+
+        <!--map_icons-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/map_icons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/mi_abseiling"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/map_icons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/mi_accounting"
+            android:textSize="@dimen/icon_size" />
+
+        <!--material_icons-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/material_icons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/ma_3d_rotation"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/material_icons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/ma_ac_unit"
+            android:textSize="@dimen/icon_size" />
+
+        <!--octicons-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/octicons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/oc_alert"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/octicons"
+            android:padding="@dimen/small_margin"
+            android:text="@string/oc_alignment_align"
+            android:textSize="@dimen/icon_size" />
+
+        <!--open_iconic-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_iconic"
+            android:padding="@dimen/small_margin"
+            android:text="@string/ic_account_login"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_iconic"
+            android:padding="@dimen/small_margin"
+            android:text="@string/ic_account_logout"
+            android:textSize="@dimen/icon_size" />
+
+        <!--segoe_mdl2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoe_mdl2"
+            android:padding="@dimen/small_margin"
+            android:text="@string/sm_Accept"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoe_mdl2"
+            android:padding="@dimen/small_margin"
+            android:text="@string/sm_Accident"
+            android:textSize="@dimen/icon_size" />
+
+        <!--themify-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/themify"
+            android:padding="@dimen/small_margin"
+            android:text="@string/ti_agenda"
+            android:textSize="@dimen/icon_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/themify"
+            android:padding="@dimen/small_margin"
+            android:text="@string/ti_alarm_clock"
+            android:textSize="@dimen/icon_size" />
+    </GridLayout>
+</RelativeLayout>
