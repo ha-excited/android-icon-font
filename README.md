@@ -16,7 +16,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-        implementation 'com.github.ha-excited:android-icon-font:0.1'
+        implementation 'com.github.ha-excited:android-icon-font:0.1.0'
 }
 ```
 
